@@ -1,0 +1,1335 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>bae6d0c6721f44dc8ac423ed2c4aab9d</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      word-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<section id="importing-the-data" class="cell markdown">
+<h2>Importing the Data</h2>
+</section>
+<div class="cell code" data-execution_count="1">
+<div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Import all the Dependencies</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> datetime</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="op">%</span>matplotlib inline</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>plt.style.use(<span class="st">&#39;seaborn&#39;</span>)</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Feature Engineering </span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.preprocessing <span class="im">import</span> LabelEncoder</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.preprocessing <span class="im">import</span> StandardScaler</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Model Selection</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> train_test_split</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="co"># handle Imbalanced Data</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> imblearn.over_sampling <span class="im">import</span> RandomOverSampler</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="co">#Models</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.linear_model <span class="im">import</span> LogisticRegression</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.ensemble <span class="im">import</span> RandomForestClassifier</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="co"># Model Evaluation</span></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> classification_report, confusion_matrix</span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="co"># Hyper-Tuning </span></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> RandomizedSearchCV</span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> warnings</span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>warnings.filterwarnings(<span class="st">&#39;ignore&#39;</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="2">
+<div class="sourceCode" id="cb2"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Reading the Data</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>df<span class="op">=</span>pd.read_csv(<span class="st">&quot;case_study_data.csv&quot;</span>)</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>df.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="2">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>user_id</th>
+      <th>gender</th>
+      <th>date_of_birth</th>
+      <th>workclass</th>
+      <th>education_level</th>
+      <th>education_num</th>
+      <th>marital_status</th>
+      <th>occupation</th>
+      <th>relationship</th>
+      <th>capital_gain</th>
+      <th>...</th>
+      <th>hours_per_week</th>
+      <th>approved</th>
+      <th>address</th>
+      <th>email</th>
+      <th>inquiry_purpose_code</th>
+      <th>institute_type</th>
+      <th>account_type</th>
+      <th>asset_class_cd</th>
+      <th>asset_code</th>
+      <th>portfolio_type</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>307c73a3-0c67-43b5-b0d1</td>
+      <td>Female</td>
+      <td>03/01/87</td>
+      <td>Private</td>
+      <td>11th</td>
+      <td>7</td>
+      <td>Never-married</td>
+      <td>Sales</td>
+      <td>Unmarried</td>
+      <td>0</td>
+      <td>...</td>
+      <td>17</td>
+      <td>0</td>
+      <td>45424 Norris Common Apt. 390\nNorth Mike, AR 8...</td>
+      <td>vasquezleah@yahoo.com</td>
+      <td>7.0</td>
+      <td>PVT</td>
+      <td>5</td>
+      <td>NaN</td>
+      <td>1.0</td>
+      <td>R</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>519481f1-604d-48b6-aa47</td>
+      <td>Male</td>
+      <td>07/01/70</td>
+      <td>Self-emp-not-inc</td>
+      <td>Some-college</td>
+      <td>10</td>
+      <td>Married-civ-spouse</td>
+      <td>Craft-repair</td>
+      <td>Husband</td>
+      <td>0</td>
+      <td>...</td>
+      <td>48</td>
+      <td>0</td>
+      <td>5022 Rebecca Haven Apt. 258\nThompsonfurt, CT ...</td>
+      <td>johnsontrevor@hotmail.com</td>
+      <td>13.0</td>
+      <td>NBF</td>
+      <td>5</td>
+      <td>NaN</td>
+      <td>1.0</td>
+      <td>R</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>f66fe2c6-53e3-46ce-8321</td>
+      <td>Male</td>
+      <td>06/01/73</td>
+      <td>Private</td>
+      <td>HS-grad</td>
+      <td>9</td>
+      <td>Divorced</td>
+      <td>Sales</td>
+      <td>Not-in-family</td>
+      <td>0</td>
+      <td>...</td>
+      <td>50</td>
+      <td>0</td>
+      <td>8780 Brown Loaf Apt. 099\nNorth David, NJ 56510</td>
+      <td>morganemily@gmail.com</td>
+      <td>13.0</td>
+      <td>NBF</td>
+      <td>5</td>
+      <td>NaN</td>
+      <td>1.0</td>
+      <td>R</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>91360ed7-72d1-4f6e-b492</td>
+      <td>Female</td>
+      <td>30/12/01</td>
+      <td>Private</td>
+      <td>11th</td>
+      <td>7</td>
+      <td>Never-married</td>
+      <td>Sales</td>
+      <td>Own-child</td>
+      <td>0</td>
+      <td>...</td>
+      <td>15</td>
+      <td>0</td>
+      <td>721 Jackson Extensions Suite 995\nNew Taraside...</td>
+      <td>agarcia@hotmail.com</td>
+      <td>13.0</td>
+      <td>NBF</td>
+      <td>5</td>
+      <td>NaN</td>
+      <td>1.0</td>
+      <td>R</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>0e1977f3-3bef-4283-8d0a</td>
+      <td>Male</td>
+      <td>03/01/86</td>
+      <td>Private</td>
+      <td>Some-college</td>
+      <td>10</td>
+      <td>Married-civ-spouse</td>
+      <td>Handlers-cleaners</td>
+      <td>Husband</td>
+      <td>0</td>
+      <td>...</td>
+      <td>50</td>
+      <td>0</td>
+      <td>935 Burch Divide\nLake Bobbyfurt, VT 14128</td>
+      <td>shermanmeredith@gmail.com</td>
+      <td>13.0</td>
+      <td>PVT</td>
+      <td>47</td>
+      <td>S</td>
+      <td>1.0</td>
+      <td>I</td>
+    </tr>
+  </tbody>
+</table>
+<p>5 rows × 21 columns</p>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="3">
+<div class="sourceCode" id="cb3"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>df.shape</span></code></pre></div>
+<div class="output execute_result" data-execution_count="3">
+<pre><code>(45222, 21)</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="4">
+<div class="sourceCode" id="cb5"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>df.describe()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="4">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>education_num</th>
+      <th>capital_gain</th>
+      <th>capital_loss</th>
+      <th>hours_per_week</th>
+      <th>approved</th>
+      <th>inquiry_purpose_code</th>
+      <th>account_type</th>
+      <th>asset_code</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>count</th>
+      <td>45222.000000</td>
+      <td>45222.000000</td>
+      <td>45222.000000</td>
+      <td>45222.000000</td>
+      <td>45222.000000</td>
+      <td>43931.000000</td>
+      <td>45222.000000</td>
+      <td>45140.000000</td>
+    </tr>
+    <tr>
+      <th>mean</th>
+      <td>10.118460</td>
+      <td>1101.430344</td>
+      <td>88.595418</td>
+      <td>40.938017</td>
+      <td>0.247844</td>
+      <td>28.936560</td>
+      <td>79.807019</td>
+      <td>1.063735</td>
+    </tr>
+    <tr>
+      <th>std</th>
+      <td>2.552881</td>
+      <td>7506.430084</td>
+      <td>404.956092</td>
+      <td>12.007508</td>
+      <td>0.431766</td>
+      <td>35.393095</td>
+      <td>143.951963</td>
+      <td>0.711637</td>
+    </tr>
+    <tr>
+      <th>min</th>
+      <td>1.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>1.000000</td>
+      <td>0.000000</td>
+      <td>1.000000</td>
+      <td>5.000000</td>
+      <td>1.000000</td>
+    </tr>
+    <tr>
+      <th>25%</th>
+      <td>9.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>40.000000</td>
+      <td>0.000000</td>
+      <td>13.000000</td>
+      <td>5.000000</td>
+      <td>1.000000</td>
+    </tr>
+    <tr>
+      <th>50%</th>
+      <td>10.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>40.000000</td>
+      <td>0.000000</td>
+      <td>13.000000</td>
+      <td>5.000000</td>
+      <td>1.000000</td>
+    </tr>
+    <tr>
+      <th>75%</th>
+      <td>13.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>45.000000</td>
+      <td>0.000000</td>
+      <td>16.000000</td>
+      <td>173.000000</td>
+      <td>1.000000</td>
+    </tr>
+    <tr>
+      <th>max</th>
+      <td>16.000000</td>
+      <td>99999.000000</td>
+      <td>4356.000000</td>
+      <td>99.000000</td>
+      <td>1.000000</td>
+      <td>99.000000</td>
+      <td>999.000000</td>
+      <td>19.000000</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<section id="checking-null-values" class="cell markdown">
+<h2>Checking Null Values</h2>
+</section>
+<div class="cell code" data-execution_count="5">
+<div class="sourceCode" id="cb6"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>df.isnull().<span class="bu">sum</span>()<span class="op">/</span><span class="bu">len</span>(df)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="5">
+<pre><code>user_id                 0.000000
+gender                  0.000000
+date_of_birth           0.000000
+workclass               0.000000
+education_level         0.000000
+education_num           0.000000
+marital_status          0.000000
+occupation              0.000000
+relationship            0.000000
+capital_gain            0.000000
+capital_loss            0.000000
+hours_per_week          0.000000
+approved                0.000000
+address                 0.000000
+email                   0.000000
+inquiry_purpose_code    0.028548
+institute_type          0.000000
+account_type            0.000000
+asset_class_cd          0.790102
+asset_code              0.001813
+portfolio_type          0.000133
+dtype: float64</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>We do have null values in some of the credit bureau data points. that will handle later in the upcoming stages.</p>
+</div>
+<section id="exploratory-data-analysis" class="cell markdown">
+<h2>Exploratory Data Analysis</h2>
+</section>
+<div class="cell code" data-execution_count="6">
+<div class="sourceCode" id="cb8"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>sns.countplot(df[<span class="st">&#39;approved&#39;</span>])</span></code></pre></div>
+<div class="output execute_result" data-execution_count="6">
+<pre><code>&lt;AxesSubplot:xlabel=&#39;approved&#39;, ylabel=&#39;count&#39;&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_0dffe6063dae4ea68313a44520fc99db/a427583db5d5e649c9a7797a89d99859a9d35161.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>As we can clearly see the indication of imbalance data, it may give wrong predictions so we have to handle this problem before going to train any model.</p>
+<p>75% users are the one who didn't get approved, let's get into the further drill down for better understanding.</p>
+</div>
+<div class="cell code" data-execution_count="7">
+<div class="sourceCode" id="cb10"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>sns.pairplot(df,hue<span class="op">=</span><span class="st">&#39;approved&#39;</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="7">
+<pre><code>&lt;seaborn.axisgrid.PairGrid at 0x26c98287dc0&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_0dffe6063dae4ea68313a44520fc99db/57d5f14a4850bcd3ecbcfbeb5b8a007665f1fa3b.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>It's very difficult to analyze the data by pair plot, let's compare all the parameters one by one with our target label i.e "aprroved".</p>
+<p>Will devide our comparision by categorical and numerical variables</p>
+</div>
+<div class="cell code" data-execution_count="8">
+<div class="sourceCode" id="cb12"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>categorical<span class="op">=</span>[]</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>numerical<span class="op">=</span>[]</span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> df.columns:</span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> df[i].dtype<span class="op">==</span><span class="st">&quot;O&quot;</span>:</span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>        categorical.append(i)</span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>:</span>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a>        numerical.append(i)</span>
+<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;Categorical Features are: &#39;</span>,categorical)</span>
+<span id="cb12-10"><a href="#cb12-10" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="dv">100</span><span class="op">*</span><span class="st">&quot;-&quot;</span>)</span>
+<span id="cb12-11"><a href="#cb12-11" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;Numerical Features are: &#39;</span>,numerical)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Categorical Features are:  [&#39;user_id&#39;, &#39;gender&#39;, &#39;date_of_birth&#39;, &#39;workclass&#39;, &#39;education_level&#39;, &#39;marital_status&#39;, &#39;occupation&#39;, &#39;relationship&#39;, &#39;address&#39;, &#39;email&#39;, &#39;institute_type&#39;, &#39;asset_class_cd&#39;, &#39;portfolio_type&#39;]
+----------------------------------------------------------------------------------------------------
+Numerical Features are:  [&#39;education_num&#39;, &#39;capital_gain&#39;, &#39;capital_loss&#39;, &#39;hours_per_week&#39;, &#39;approved&#39;, &#39;inquiry_purpose_code&#39;, &#39;account_type&#39;, &#39;asset_code&#39;]
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="9">
+<div class="sourceCode" id="cb14"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>sns.countplot(df[<span class="st">&#39;gender&#39;</span>],hue<span class="op">=</span>df[<span class="st">&#39;approved&#39;</span>])</span></code></pre></div>
+<div class="output execute_result" data-execution_count="9">
+<pre><code>&lt;AxesSubplot:xlabel=&#39;gender&#39;, ylabel=&#39;count&#39;&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_0dffe6063dae4ea68313a44520fc99db/4a5fcc808f1b4ad3658ab541612a3ea74ba100b0.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>We can see almost males are dominating females with higher number of approval. though males participants are higher than females.</p>
+</div>
+<div class="cell code" data-execution_count="10">
+<div class="sourceCode" id="cb16"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>,<span class="dv">16</span>))</span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>exp<span class="op">=</span>pd.crosstab(df[<span class="st">&#39;workclass&#39;</span>],df[<span class="st">&#39;approved&#39;</span>]) </span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>exp.div(exp.<span class="bu">sum</span>(<span class="dv">1</span>).astype(<span class="bu">float</span>), axis<span class="op">=</span><span class="dv">0</span>).plot(kind<span class="op">=</span><span class="st">&quot;bar&quot;</span>, stacked<span class="op">=</span><span class="va">True</span>,figsize<span class="op">=</span>(<span class="dv">8</span>,<span class="dv">8</span>))</span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a>plt.legend(loc<span class="op">=</span><span class="st">&#39;best&#39;</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="10">
+<pre><code>&lt;matplotlib.legend.Legend at 0x26c9f0013d0&gt;</code></pre>
+</div>
+<div class="output display_data">
+<pre><code>&lt;Figure size 720x1152 with 0 Axes&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_0dffe6063dae4ea68313a44520fc99db/a1eccfdf08e0fae2e51d4404431d9df6ebc84567.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>If we talk about the workclass, a person who is working in private company is applying for the credit cards more than any other sector. but most approvals are getting by a person who is in business or working for himself/herself.</p>
+</div>
+<div class="cell code" data-execution_count="11">
+<div class="sourceCode" id="cb19"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>sns.countplot(y<span class="op">=</span>df[[<span class="st">&#39;education_level&#39;</span>,<span class="st">&#39;approved&#39;</span>,<span class="st">&#39;education_num&#39;</span>]].sort_values(by<span class="op">=</span><span class="st">&#39;education_num&#39;</span>,ascending<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>              [<span class="st">&#39;education_level&#39;</span>],hue<span class="op">=</span>df[<span class="st">&#39;approved&#39;</span>])</span></code></pre></div>
+<div class="output execute_result" data-execution_count="11">
+<pre><code>&lt;AxesSubplot:xlabel=&#39;count&#39;, ylabel=&#39;education_level&#39;&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_0dffe6063dae4ea68313a44520fc99db/90999b610e54d9d900e49636c2e880586cc49893.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>Approvals rate for the bachelors are much higher than whose are from other educational background, though we can see more participants are the one whose are High School Graduate or have done graduation from some college.</p>
+</div>
+<div class="cell code" data-execution_count="12">
+<div class="sourceCode" id="cb21"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>sns.countplot(y<span class="op">=</span>df[<span class="st">&#39;marital_status&#39;</span>],hue<span class="op">=</span>df[<span class="st">&#39;approved&#39;</span>])</span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Credit Cards Approval History With Respect to Marital Status&#39;</span>)</span>
+<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-6"><a href="#cb21-6" aria-hidden="true" tabindex="-1"></a>sns.countplot(y<span class="op">=</span>df[<span class="st">&#39;marital_status&#39;</span>],hue<span class="op">=</span>df[<span class="st">&#39;gender&#39;</span>])</span>
+<span id="cb21-7"><a href="#cb21-7" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Distribution of Marital Status by Gender&#39;</span>)</span>
+<span id="cb21-8"><a href="#cb21-8" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img src="vertopal_0dffe6063dae4ea68313a44520fc99db/ffe561a1ed22fea53659dc2f125af43e13a34e35.png" /></p>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_0dffe6063dae4ea68313a44520fc99db/89351fc2f4a6d1f3645ec59b53841712915bbab1.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>bachelors are the one whose are applying more for the credit cards but the approvals rate is higher for married people.</p>
+</div>
+<div class="cell code" data-execution_count="13">
+<div class="sourceCode" id="cb22"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>sns.countplot(y<span class="op">=</span>df[<span class="st">&#39;occupation&#39;</span>],hue<span class="op">=</span>df[<span class="st">&#39;approved&#39;</span>])</span></code></pre></div>
+<div class="output execute_result" data-execution_count="13">
+<pre><code>&lt;AxesSubplot:xlabel=&#39;count&#39;, ylabel=&#39;occupation&#39;&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_0dffe6063dae4ea68313a44520fc99db/4d9ff68a0f7b18068c8848d15c468cda25a7ee42.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>it's clearly catching our eye that whoever is at manegement level getting easily approval of credit cards as thier salary would be higher than the other professionals.</p>
+</div>
+<div class="cell code" data-execution_count="14">
+<div class="sourceCode" id="cb24"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>sns.countplot(y<span class="op">=</span>df[<span class="st">&#39;relationship&#39;</span>],hue<span class="op">=</span>df[<span class="st">&#39;approved&#39;</span>])</span></code></pre></div>
+<div class="output execute_result" data-execution_count="14">
+<pre><code>&lt;AxesSubplot:xlabel=&#39;count&#39;, ylabel=&#39;relationship&#39;&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_0dffe6063dae4ea68313a44520fc99db/b59d3eb951b532065eb1664f3aa58254e542c18f.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+
+</div>
+<div class="cell markdown">
+<p>As we have checked all the parameters that were given except the age and the Capital, We don't have age given in the data so will append column as an age of the user which we will calculate by thier DOB.</p>
+</div>
+<section id="note" class="cell markdown">
+<h3>Note:</h3>
+<p>Date conversion won't be possible by any of datetime module as we have data with having date of birth is 69 years ago,if we use then 69 year will get converted into 2069 instead of 1969. so we need to clean and we have to make proper format to proceed further</p>
+</section>
+<div class="cell code" data-execution_count="15">
+<div class="sourceCode" id="cb26"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a><span class="co"># make a column for today&#39;s date to take a difference</span></span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;today_date&#39;</span>]<span class="op">=</span>datetime.date.today()</span>
+<span id="cb26-5"><a href="#cb26-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-6"><a href="#cb26-6" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;today_date&#39;</span>]<span class="op">=</span>pd.to_datetime(df[<span class="st">&#39;today_date&#39;</span>])</span>
+<span id="cb26-7"><a href="#cb26-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-8"><a href="#cb26-8" aria-hidden="true" tabindex="-1"></a><span class="co"># cleaning the date and making it in proper format</span></span>
+<span id="cb26-9"><a href="#cb26-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-10"><a href="#cb26-10" aria-hidden="true" tabindex="-1"></a>day<span class="op">=</span>[]</span>
+<span id="cb26-11"><a href="#cb26-11" aria-hidden="true" tabindex="-1"></a>month<span class="op">=</span>[]</span>
+<span id="cb26-12"><a href="#cb26-12" aria-hidden="true" tabindex="-1"></a>year<span class="op">=</span>[]</span>
+<span id="cb26-13"><a href="#cb26-13" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> df[<span class="st">&#39;date_of_birth&#39;</span>]:</span>
+<span id="cb26-14"><a href="#cb26-14" aria-hidden="true" tabindex="-1"></a>    day.append(i.split(<span class="st">&#39;/&#39;</span>)[<span class="dv">0</span>])</span>
+<span id="cb26-15"><a href="#cb26-15" aria-hidden="true" tabindex="-1"></a>    month.append(i.split(<span class="st">&#39;/&#39;</span>)[<span class="dv">1</span>])</span>
+<span id="cb26-16"><a href="#cb26-16" aria-hidden="true" tabindex="-1"></a>    year.append(i.split(<span class="st">&#39;/&#39;</span>)[<span class="dv">2</span>])</span>
+<span id="cb26-17"><a href="#cb26-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-18"><a href="#cb26-18" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;day&#39;</span>]<span class="op">=</span>day</span>
+<span id="cb26-19"><a href="#cb26-19" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;month&#39;</span>]<span class="op">=</span>month</span>
+<span id="cb26-20"><a href="#cb26-20" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;year&#39;</span>]<span class="op">=</span>year</span>
+<span id="cb26-21"><a href="#cb26-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-22"><a href="#cb26-22" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;year&#39;</span>]<span class="op">=</span>df[<span class="st">&#39;year&#39;</span>].astype(<span class="st">&#39;int&#39;</span>)</span>
+<span id="cb26-23"><a href="#cb26-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-24"><a href="#cb26-24" aria-hidden="true" tabindex="-1"></a>conditions <span class="op">=</span> [</span>
+<span id="cb26-25"><a href="#cb26-25" aria-hidden="true" tabindex="-1"></a>    df[<span class="st">&#39;year&#39;</span>] <span class="op">&lt;=</span> <span class="dv">22</span>,</span>
+<span id="cb26-26"><a href="#cb26-26" aria-hidden="true" tabindex="-1"></a>    df[<span class="st">&#39;year&#39;</span>]<span class="op">&gt;</span><span class="dv">22</span></span>
+<span id="cb26-27"><a href="#cb26-27" aria-hidden="true" tabindex="-1"></a>]</span>
+<span id="cb26-28"><a href="#cb26-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-29"><a href="#cb26-29" aria-hidden="true" tabindex="-1"></a>choices <span class="op">=</span> [<span class="dv">2000</span>,<span class="dv">1900</span>]</span>
+<span id="cb26-30"><a href="#cb26-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-31"><a href="#cb26-31" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;new_column&#39;</span>] <span class="op">=</span> np.select(conditions, choices)</span>
+<span id="cb26-32"><a href="#cb26-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-33"><a href="#cb26-33" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;years&#39;</span>]<span class="op">=</span>df[<span class="st">&#39;new_column&#39;</span>]<span class="op">+</span>df[<span class="st">&#39;year&#39;</span>]</span>
+<span id="cb26-34"><a href="#cb26-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-35"><a href="#cb26-35" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;years&#39;</span>]<span class="op">=</span>df[<span class="st">&#39;years&#39;</span>].astype(<span class="st">&#39;str&#39;</span>)</span>
+<span id="cb26-36"><a href="#cb26-36" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-37"><a href="#cb26-37" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;DOB&#39;</span>]<span class="op">=</span>df[<span class="st">&#39;day&#39;</span>]<span class="op">+</span><span class="st">&quot;/&quot;</span><span class="op">+</span>df[<span class="st">&#39;month&#39;</span>]<span class="op">+</span><span class="st">&quot;/&quot;</span><span class="op">+</span>df[<span class="st">&#39;years&#39;</span>]</span>
+<span id="cb26-38"><a href="#cb26-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-39"><a href="#cb26-39" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;DOB&#39;</span>]<span class="op">=</span>pd.to_datetime(df[<span class="st">&#39;DOB&#39;</span>])</span>
+<span id="cb26-40"><a href="#cb26-40" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-41"><a href="#cb26-41" aria-hidden="true" tabindex="-1"></a><span class="co">#Finally We got the Age of each users.</span></span>
+<span id="cb26-42"><a href="#cb26-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-43"><a href="#cb26-43" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;age&#39;</span>]<span class="op">=</span>(df[<span class="st">&#39;today_date&#39;</span>]<span class="op">-</span>df[<span class="st">&#39;DOB&#39;</span>]).dt.days<span class="op">//</span><span class="dv">365</span></span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="16">
+<div class="sourceCode" id="cb27"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>sns.distplot(df[<span class="st">&#39;age&#39;</span>])</span></code></pre></div>
+<div class="output execute_result" data-execution_count="16">
+<pre><code>&lt;AxesSubplot:xlabel=&#39;age&#39;, ylabel=&#39;Density&#39;&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_0dffe6063dae4ea68313a44520fc99db/c6fd2763272bd6fa8edd7801a5231183edcbf9b2.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="17">
+<div class="sourceCode" id="cb29"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a>sns.histplot(df[df[<span class="st">&#39;approved&#39;</span>]<span class="op">==</span><span class="dv">1</span>][<span class="st">&#39;age&#39;</span>],kde<span class="op">=</span><span class="va">True</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="17">
+<pre><code>&lt;AxesSubplot:xlabel=&#39;age&#39;, ylabel=&#39;Count&#39;&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_0dffe6063dae4ea68313a44520fc99db/ff4808caa1e73be682308c4c5da959db63b0ca54.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>We can see the distribution is behaving like a guassian one as we wanted, there is a clear indication that the cluster of age between 30-60 are getting higher approvals. we can later create the bins to train our model for better prediction.</p>
+</div>
+<div class="cell markdown">
+
+</div>
+<div class="cell code" data-execution_count="18">
+<div class="sourceCode" id="cb31"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a>sns.catplot(y<span class="op">=</span><span class="st">&quot;capital_gain&quot;</span>, x<span class="op">=</span><span class="st">&quot;approved&quot;</span>, kind<span class="op">=</span><span class="st">&quot;box&quot;</span>, data<span class="op">=</span>df)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="18">
+<pre><code>&lt;seaborn.axisgrid.FacetGrid at 0x26ca7e30c40&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_0dffe6063dae4ea68313a44520fc99db/4984b5b36e6400c60b748d4962075f145b9f89e7.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="19">
+<div class="sourceCode" id="cb33"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a>sns.catplot(y<span class="op">=</span><span class="st">&quot;capital_loss&quot;</span>, x<span class="op">=</span><span class="st">&quot;approved&quot;</span>, kind<span class="op">=</span><span class="st">&quot;box&quot;</span>, data<span class="op">=</span>df)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="19">
+<pre><code>&lt;seaborn.axisgrid.FacetGrid at 0x26ca85fba00&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_0dffe6063dae4ea68313a44520fc99db/793b58aff9610eb1b084db957bf17a14222c9d3e.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="20">
+<div class="sourceCode" id="cb35"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a>sns.catplot(y<span class="op">=</span><span class="st">&quot;hours_per_week&quot;</span>, x<span class="op">=</span><span class="st">&quot;approved&quot;</span>, kind<span class="op">=</span><span class="st">&quot;box&quot;</span>, data<span class="op">=</span>df)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="20">
+<pre><code>&lt;seaborn.axisgrid.FacetGrid at 0x26ca85f6d30&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_0dffe6063dae4ea68313a44520fc99db/bfdcc8f22f4c861752013636550b9c2189636f4c.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>outliers are present in the capital_gain, capital_loss and work_hours_week, that we need to handle later in the machine learning stage.</p>
+</div>
+<div class="cell code" data-execution_count="21">
+<div class="sourceCode" id="cb37"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a>approved<span class="op">=</span>pd.DataFrame(df[df[<span class="st">&#39;approved&#39;</span>]<span class="op">==</span><span class="dv">1</span>][<span class="st">&#39;capital_gain&#39;</span>].describe())</span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a>not_approved<span class="op">=</span>pd.DataFrame(df[df[<span class="st">&#39;approved&#39;</span>]<span class="op">==</span><span class="dv">0</span>][<span class="st">&#39;capital_gain&#39;</span>].describe())</span>
+<span id="cb37-4"><a href="#cb37-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-5"><a href="#cb37-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-6"><a href="#cb37-6" aria-hidden="true" tabindex="-1"></a>font_color <span class="op">=</span> <span class="st">&#39;#525252&#39;</span></span>
+<span id="cb37-7"><a href="#cb37-7" aria-hidden="true" tabindex="-1"></a>hfont <span class="op">=</span> {<span class="st">&#39;fontname&#39;</span>:<span class="st">&#39;Calibri&#39;</span>}</span>
+<span id="cb37-8"><a href="#cb37-8" aria-hidden="true" tabindex="-1"></a>facecolor <span class="op">=</span> <span class="st">&#39;#eaeaf2&#39;</span></span>
+<span id="cb37-9"><a href="#cb37-9" aria-hidden="true" tabindex="-1"></a>color_red <span class="op">=</span> <span class="st">&#39;#fd625e&#39;</span></span>
+<span id="cb37-10"><a href="#cb37-10" aria-hidden="true" tabindex="-1"></a>color_blue <span class="op">=</span> <span class="st">&#39;#01b8aa&#39;</span></span>
+<span id="cb37-11"><a href="#cb37-11" aria-hidden="true" tabindex="-1"></a>index <span class="op">=</span> approved.index</span>
+<span id="cb37-12"><a href="#cb37-12" aria-hidden="true" tabindex="-1"></a>column0 <span class="op">=</span> approved[<span class="st">&#39;capital_gain&#39;</span>]</span>
+<span id="cb37-13"><a href="#cb37-13" aria-hidden="true" tabindex="-1"></a>column1 <span class="op">=</span> not_approved[<span class="st">&#39;capital_gain&#39;</span>]</span>
+<span id="cb37-14"><a href="#cb37-14" aria-hidden="true" tabindex="-1"></a>title0 <span class="op">=</span> <span class="st">&quot;Capital gain summary of </span><span class="ch">\n</span><span class="st">Approved User&quot;</span></span>
+<span id="cb37-15"><a href="#cb37-15" aria-hidden="true" tabindex="-1"></a>title1 <span class="op">=</span> <span class="st">&#39;Capital gain summary of </span><span class="ch">\n</span><span class="st">Not Approved User&#39;</span></span>
+<span id="cb37-16"><a href="#cb37-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-17"><a href="#cb37-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-18"><a href="#cb37-18" aria-hidden="true" tabindex="-1"></a>fig, axes <span class="op">=</span> plt.subplots(figsize<span class="op">=</span>(<span class="dv">10</span>,<span class="dv">5</span>), facecolor<span class="op">=</span>facecolor, ncols<span class="op">=</span><span class="dv">2</span>, sharey<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb37-19"><a href="#cb37-19" aria-hidden="true" tabindex="-1"></a>fig.tight_layout()</span>
+<span id="cb37-20"><a href="#cb37-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-21"><a href="#cb37-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-22"><a href="#cb37-22" aria-hidden="true" tabindex="-1"></a>axes[<span class="dv">0</span>].barh(index, column0, align<span class="op">=</span><span class="st">&#39;center&#39;</span>, color<span class="op">=</span>color_red, zorder<span class="op">=</span><span class="dv">10</span>)</span>
+<span id="cb37-23"><a href="#cb37-23" aria-hidden="true" tabindex="-1"></a>axes[<span class="dv">0</span>].set_title(title0, fontsize<span class="op">=</span><span class="dv">18</span>, pad<span class="op">=</span><span class="dv">15</span>, color<span class="op">=</span>color_red, <span class="op">**</span>hfont)</span>
+<span id="cb37-24"><a href="#cb37-24" aria-hidden="true" tabindex="-1"></a>axes[<span class="dv">1</span>].barh(index, column1, align<span class="op">=</span><span class="st">&#39;center&#39;</span>, color<span class="op">=</span>color_blue, zorder<span class="op">=</span><span class="dv">10</span>)</span>
+<span id="cb37-25"><a href="#cb37-25" aria-hidden="true" tabindex="-1"></a>axes[<span class="dv">1</span>].set_title(title1, fontsize<span class="op">=</span><span class="dv">18</span>, pad<span class="op">=</span><span class="dv">15</span>, color<span class="op">=</span>color_blue, <span class="op">**</span>hfont)</span>
+<span id="cb37-26"><a href="#cb37-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-27"><a href="#cb37-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-28"><a href="#cb37-28" aria-hidden="true" tabindex="-1"></a><span class="co"># If you have positive numbers and want to invert the x-axis of the left plot</span></span>
+<span id="cb37-29"><a href="#cb37-29" aria-hidden="true" tabindex="-1"></a>axes[<span class="dv">0</span>].invert_xaxis() </span>
+<span id="cb37-30"><a href="#cb37-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-31"><a href="#cb37-31" aria-hidden="true" tabindex="-1"></a><span class="co"># To show data from highest to lowest</span></span>
+<span id="cb37-32"><a href="#cb37-32" aria-hidden="true" tabindex="-1"></a>plt.gca().invert_yaxis()</span>
+<span id="cb37-33"><a href="#cb37-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-34"><a href="#cb37-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-35"><a href="#cb37-35" aria-hidden="true" tabindex="-1"></a>axes[<span class="dv">0</span>].<span class="bu">set</span>(yticks<span class="op">=</span>approved.index, yticklabels<span class="op">=</span>approved.index)</span>
+<span id="cb37-36"><a href="#cb37-36" aria-hidden="true" tabindex="-1"></a>axes[<span class="dv">0</span>].yaxis.tick_left()</span>
+<span id="cb37-37"><a href="#cb37-37" aria-hidden="true" tabindex="-1"></a>axes[<span class="dv">0</span>].tick_params(axis<span class="op">=</span><span class="st">&#39;y&#39;</span>, colors<span class="op">=</span><span class="st">&#39;white&#39;</span>) <span class="co"># tick color</span></span>
+<span id="cb37-38"><a href="#cb37-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-39"><a href="#cb37-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-40"><a href="#cb37-40" aria-hidden="true" tabindex="-1"></a>axes[<span class="dv">1</span>].set_xticks([<span class="dv">20000</span>, <span class="dv">40000</span>, <span class="dv">60000</span>, <span class="dv">80000</span>,<span class="dv">100000</span>])</span>
+<span id="cb37-41"><a href="#cb37-41" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-42"><a href="#cb37-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-43"><a href="#cb37-43" aria-hidden="true" tabindex="-1"></a>axes[<span class="dv">1</span>].set_xticklabels([<span class="dv">20000</span>, <span class="dv">40000</span>, <span class="dv">60000</span>, <span class="dv">80000</span>,<span class="dv">100000</span>])</span>
+<span id="cb37-44"><a href="#cb37-44" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-45"><a href="#cb37-45" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> label <span class="kw">in</span> (axes[<span class="dv">0</span>].get_xticklabels() <span class="op">+</span> axes[<span class="dv">0</span>].get_yticklabels()):</span>
+<span id="cb37-46"><a href="#cb37-46" aria-hidden="true" tabindex="-1"></a>    label.<span class="bu">set</span>(fontsize<span class="op">=</span><span class="dv">13</span>, color<span class="op">=</span>font_color, <span class="op">**</span>hfont)</span>
+<span id="cb37-47"><a href="#cb37-47" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> label <span class="kw">in</span> (axes[<span class="dv">1</span>].get_xticklabels() <span class="op">+</span> axes[<span class="dv">1</span>].get_yticklabels()):</span>
+<span id="cb37-48"><a href="#cb37-48" aria-hidden="true" tabindex="-1"></a>    label.<span class="bu">set</span>(fontsize<span class="op">=</span><span class="dv">13</span>, color<span class="op">=</span>font_color, <span class="op">**</span>hfont)</span>
+<span id="cb37-49"><a href="#cb37-49" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb37-50"><a href="#cb37-50" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb37-51"><a href="#cb37-51" aria-hidden="true" tabindex="-1"></a>plt.subplots_adjust(wspace<span class="op">=</span><span class="dv">0</span>, top<span class="op">=</span><span class="fl">0.85</span>, bottom<span class="op">=</span><span class="fl">0.1</span>, left<span class="op">=</span><span class="fl">0.18</span>, right<span class="op">=</span><span class="fl">0.95</span>)</span>
+<span id="cb37-52"><a href="#cb37-52" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-53"><a href="#cb37-53" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-54"><a href="#cb37-54" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-55"><a href="#cb37-55" aria-hidden="true" tabindex="-1"></a></span></code></pre></div>
+<div class="output display_data">
+<p><img src="vertopal_0dffe6063dae4ea68313a44520fc99db/aa618f172b2aed0dcb51c97be05b2c46c4ab22f0.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>the user who is getting higher capital through the investment will get a higher probability of getting approved for the credit cards</p>
+</div>
+<div class="cell code" data-execution_count="22">
+<div class="sourceCode" id="cb38"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a><span class="co"># We have age column with us so we can delete DOB and other unnecessary columns that we have created.</span></span>
+<span id="cb38-2"><a href="#cb38-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb38-3"><a href="#cb38-3" aria-hidden="true" tabindex="-1"></a>df.drop([<span class="st">&#39;today_date&#39;</span>, <span class="st">&#39;day&#39;</span>,</span>
+<span id="cb38-4"><a href="#cb38-4" aria-hidden="true" tabindex="-1"></a>       <span class="st">&#39;month&#39;</span>, <span class="st">&#39;year&#39;</span>, <span class="st">&#39;new_column&#39;</span>, <span class="st">&#39;years&#39;</span>, <span class="st">&#39;DOB&#39;</span>,<span class="st">&#39;date_of_birth&#39;</span>,<span class="st">&#39;user_id&#39;</span>],axis<span class="op">=</span><span class="dv">1</span>,inplace<span class="op">=</span><span class="va">True</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="23">
+<div class="sourceCode" id="cb39"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a>sns.barplot(y<span class="op">=</span><span class="st">&#39;education_level&#39;</span>,x<span class="op">=</span><span class="st">&#39;hours_per_week&#39;</span>,data<span class="op">=</span>df)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="23">
+<pre><code>&lt;AxesSubplot:xlabel=&#39;hours_per_week&#39;, ylabel=&#39;education_level&#39;&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_0dffe6063dae4ea68313a44520fc99db/ea30ecc6a823440c0153a7eaddbb59453909f790.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="24">
+<div class="sourceCode" id="cb41"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a>sns.barplot(y<span class="op">=</span><span class="st">&#39;workclass&#39;</span>,x<span class="op">=</span><span class="st">&#39;hours_per_week&#39;</span>,data<span class="op">=</span>df)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="24">
+<pre><code>&lt;AxesSubplot:xlabel=&#39;hours_per_week&#39;, ylabel=&#39;workclass&#39;&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_0dffe6063dae4ea68313a44520fc99db/3a44904ad93cf8d1252db5b32d63fff55cf46ade.png" /></p>
+</div>
+</div>
+<section id="checking-is-there-any-positive-or-negative-correlation-with-variables" class="cell markdown">
+<h2>Checking is there any positive or negative correlation with variables</h2>
+</section>
+<div class="cell code" data-execution_count="25">
+<div class="sourceCode" id="cb43"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb43-1"><a href="#cb43-1" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">8</span>,<span class="dv">5</span>))</span>
+<span id="cb43-2"><a href="#cb43-2" aria-hidden="true" tabindex="-1"></a>sns.heatmap(df.corr(),annot<span class="op">=</span><span class="va">True</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="25">
+<pre><code>&lt;AxesSubplot:&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_0dffe6063dae4ea68313a44520fc99db/b3204c69d1cd31eaf8a7ec0e20f628b12904b302.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>Not a single column is highly correlated with the approved, though educational background does matter to get approval for the credit cards</p>
+</div>
+<div class="cell markdown">
+<p>Now we are ready for the machine learning steps as we have analyze all the details that data had.</p>
+</div>
+<section id="machine-learning-process" class="cell markdown">
+<h2>Machine Learning Process</h2>
+</section>
+<section id="handling-the-null-values" class="cell markdown">
+<h3>Handling the null values</h3>
+</section>
+<div class="cell code" data-execution_count="26">
+<div class="sourceCode" id="cb45"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb45-1"><a href="#cb45-1" aria-hidden="true" tabindex="-1"></a>df.isnull().<span class="bu">sum</span>()[df.isnull().<span class="bu">sum</span>()<span class="op">&gt;</span><span class="dv">0</span>].index</span></code></pre></div>
+<div class="output execute_result" data-execution_count="26">
+<pre><code>Index([&#39;inquiry_purpose_code&#39;, &#39;asset_class_cd&#39;, &#39;asset_code&#39;,
+       &#39;portfolio_type&#39;],
+      dtype=&#39;object&#39;)</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>These are the columns having null values in their, we can easily delete them because anyway they are just inquiry related columns that doesn't have relation with the Credit Card Approval Process.</p>
+</div>
+<div class="cell code" data-execution_count="27">
+<div class="sourceCode" id="cb47"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb47-1"><a href="#cb47-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Deleting Columns which are having null values</span></span>
+<span id="cb47-2"><a href="#cb47-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb47-3"><a href="#cb47-3" aria-hidden="true" tabindex="-1"></a>df.drop(df.isnull().<span class="bu">sum</span>()[df.isnull().<span class="bu">sum</span>()<span class="op">&gt;</span><span class="dv">0</span>].index,axis<span class="op">=</span><span class="dv">1</span>,inplace<span class="op">=</span><span class="va">True</span>)</span></code></pre></div>
+</div>
+<section id="feature-engineering" class="cell markdown">
+<h1>Feature Engineering</h1>
+</section>
+<section id="deleting-unnecessary-columns" class="cell markdown">
+<h2>Deleting Unnecessary Columns</h2>
+</section>
+<div class="cell code" data-execution_count="28">
+<div class="sourceCode" id="cb48"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb48-1"><a href="#cb48-1" aria-hidden="true" tabindex="-1"></a><span class="co"># we have some unneccesary columns that won&#39;t be useful, so better to delete as a part of feature engineering</span></span>
+<span id="cb48-2"><a href="#cb48-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb48-3"><a href="#cb48-3" aria-hidden="true" tabindex="-1"></a>df.drop([<span class="st">&#39;address&#39;</span>, <span class="st">&#39;email&#39;</span>,</span>
+<span id="cb48-4"><a href="#cb48-4" aria-hidden="true" tabindex="-1"></a>       <span class="st">&#39;institute_type&#39;</span>, <span class="st">&#39;account_type&#39;</span>,<span class="st">&#39;education_num&#39;</span>],axis<span class="op">=</span><span class="dv">1</span>,inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb48-5"><a href="#cb48-5" aria-hidden="true" tabindex="-1"></a></span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="29">
+<div class="sourceCode" id="cb49"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb49-1"><a href="#cb49-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> df.columns:</span>
+<span id="cb49-2"><a href="#cb49-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> df[i].dtype<span class="op">==</span><span class="st">&quot;O&quot;</span>:</span>
+<span id="cb49-3"><a href="#cb49-3" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="st">&quot;</span><span class="sc">{0}</span><span class="st">=pd.get_dummies(df[&#39;</span><span class="sc">{0}</span><span class="st">&#39;],drop_first=True)&quot;</span>.<span class="bu">format</span>(i))</span>
+<span id="cb49-4"><a href="#cb49-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb49-5"><a href="#cb49-5" aria-hidden="true" tabindex="-1"></a>        </span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>gender=pd.get_dummies(df[&#39;gender&#39;],drop_first=True)
+workclass=pd.get_dummies(df[&#39;workclass&#39;],drop_first=True)
+education_level=pd.get_dummies(df[&#39;education_level&#39;],drop_first=True)
+marital_status=pd.get_dummies(df[&#39;marital_status&#39;],drop_first=True)
+occupation=pd.get_dummies(df[&#39;occupation&#39;],drop_first=True)
+relationship=pd.get_dummies(df[&#39;relationship&#39;],drop_first=True)
+</code></pre>
+</div>
+</div>
+<section id="feature-engineering" class="cell markdown">
+<h2>Feature Engineering</h2>
+</section>
+<div class="cell code" data-execution_count="30">
+<div class="sourceCode" id="cb51"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb51-1"><a href="#cb51-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Convert all the categorical features into numerical by dummy variables</span></span>
+<span id="cb51-2"><a href="#cb51-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb51-3"><a href="#cb51-3" aria-hidden="true" tabindex="-1"></a>gender<span class="op">=</span>pd.get_dummies(df[<span class="st">&#39;gender&#39;</span>],drop_first<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb51-4"><a href="#cb51-4" aria-hidden="true" tabindex="-1"></a>workclass<span class="op">=</span>pd.get_dummies(df[<span class="st">&#39;workclass&#39;</span>],drop_first<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb51-5"><a href="#cb51-5" aria-hidden="true" tabindex="-1"></a>education_level<span class="op">=</span>pd.get_dummies(df[<span class="st">&#39;education_level&#39;</span>],drop_first<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb51-6"><a href="#cb51-6" aria-hidden="true" tabindex="-1"></a>marital_status<span class="op">=</span>pd.get_dummies(df[<span class="st">&#39;marital_status&#39;</span>],drop_first<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb51-7"><a href="#cb51-7" aria-hidden="true" tabindex="-1"></a>occupation<span class="op">=</span>pd.get_dummies(df[<span class="st">&#39;occupation&#39;</span>],drop_first<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb51-8"><a href="#cb51-8" aria-hidden="true" tabindex="-1"></a>relationship<span class="op">=</span>pd.get_dummies(df[<span class="st">&#39;relationship&#39;</span>],drop_first<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb51-9"><a href="#cb51-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb51-10"><a href="#cb51-10" aria-hidden="true" tabindex="-1"></a>df_cat<span class="op">=</span>pd.concat([gender,workclass,education_level,marital_status,occupation,relationship],axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb51-11"><a href="#cb51-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb51-12"><a href="#cb51-12" aria-hidden="true" tabindex="-1"></a>cat_columns<span class="op">=</span>[]</span>
+<span id="cb51-13"><a href="#cb51-13" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> df.columns:</span>
+<span id="cb51-14"><a href="#cb51-14" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> df[i].dtype<span class="op">==</span><span class="st">&quot;O&quot;</span>:</span>
+<span id="cb51-15"><a href="#cb51-15" aria-hidden="true" tabindex="-1"></a>        cat_columns.append(i)</span>
+<span id="cb51-16"><a href="#cb51-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb51-17"><a href="#cb51-17" aria-hidden="true" tabindex="-1"></a>df.drop(cat_columns,axis<span class="op">=</span><span class="dv">1</span>,inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb51-18"><a href="#cb51-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb51-19"><a href="#cb51-19" aria-hidden="true" tabindex="-1"></a>final_data<span class="op">=</span>pd.concat([df,df_cat],axis<span class="op">=</span><span class="dv">1</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="31">
+<div class="sourceCode" id="cb52"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb52-1"><a href="#cb52-1" aria-hidden="true" tabindex="-1"></a>final_data.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="31">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>capital_gain</th>
+      <th>capital_loss</th>
+      <th>hours_per_week</th>
+      <th>approved</th>
+      <th>age</th>
+      <th>Male</th>
+      <th>Local-gov</th>
+      <th>Private</th>
+      <th>Self-emp-inc</th>
+      <th>Self-emp-not-inc</th>
+      <th>...</th>
+      <th>Prof-specialty</th>
+      <th>Protective-serv</th>
+      <th>Sales</th>
+      <th>Tech-support</th>
+      <th>Transport-moving</th>
+      <th>Not-in-family</th>
+      <th>Other-relative</th>
+      <th>Own-child</th>
+      <th>Unmarried</th>
+      <th>Wife</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>0</td>
+      <td>0</td>
+      <td>17</td>
+      <td>0</td>
+      <td>35</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>0</td>
+      <td>0</td>
+      <td>48</td>
+      <td>0</td>
+      <td>51</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>0</td>
+      <td>0</td>
+      <td>50</td>
+      <td>0</td>
+      <td>48</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>0</td>
+      <td>0</td>
+      <td>15</td>
+      <td>0</td>
+      <td>20</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>0</td>
+      <td>0</td>
+      <td>50</td>
+      <td>0</td>
+      <td>36</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+<p>5 rows × 51 columns</p>
+</div>
+</div>
+</div>
+<section id="handling-imbalance-data" class="cell markdown">
+<h2>Handling Imbalance Data</h2>
+</section>
+<div class="cell code" data-execution_count="32">
+<div class="sourceCode" id="cb53"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb53-1"><a href="#cb53-1" aria-hidden="true" tabindex="-1"></a>X<span class="op">=</span>final_data.drop(<span class="st">&#39;approved&#39;</span>,axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb53-2"><a href="#cb53-2" aria-hidden="true" tabindex="-1"></a>y<span class="op">=</span>final_data[<span class="st">&#39;approved&#39;</span>]</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="33">
+<div class="sourceCode" id="cb54"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb54-1"><a href="#cb54-1" aria-hidden="true" tabindex="-1"></a><span class="co"># We have Imbalanced Data and to avoid this problem we have to do sampling </span></span>
+<span id="cb54-2"><a href="#cb54-2" aria-hidden="true" tabindex="-1"></a><span class="co"># we have two method so for 1] Under Sampling, 2] Oversampling</span></span>
+<span id="cb54-3"><a href="#cb54-3" aria-hidden="true" tabindex="-1"></a><span class="co"># I will go with Oversampling.</span></span>
+<span id="cb54-4"><a href="#cb54-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb54-5"><a href="#cb54-5" aria-hidden="true" tabindex="-1"></a>sample<span class="op">=</span>RandomOverSampler()</span>
+<span id="cb54-6"><a href="#cb54-6" aria-hidden="true" tabindex="-1"></a>X_sample,y_sample<span class="op">=</span>sample.fit_resample(X,y)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="34">
+<div class="sourceCode" id="cb55"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb55-1"><a href="#cb55-1" aria-hidden="true" tabindex="-1"></a>sns.countplot(pd.Series(y_sample))</span></code></pre></div>
+<div class="output execute_result" data-execution_count="34">
+<pre><code>&lt;AxesSubplot:xlabel=&#39;approved&#39;, ylabel=&#39;count&#39;&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_0dffe6063dae4ea68313a44520fc99db/79cc77f5798d451e826db36b967922c51a2b9249.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>Now we have balance data, so let's proceed with the train test split and will train our model.</p>
+</div>
+<section id="train-test-split" class="cell markdown">
+<h2>Train Test Split</h2>
+</section>
+<div class="cell code" data-execution_count="35">
+<div class="sourceCode" id="cb57"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb57-1"><a href="#cb57-1" aria-hidden="true" tabindex="-1"></a>X_train,X_test,y_train,y_test<span class="op">=</span>train_test_split(X_sample,y_sample,test_size<span class="op">=</span><span class="fl">0.2</span>)</span></code></pre></div>
+</div>
+<section id="implement-machine-learning-models-and-evaluations" class="cell markdown">
+<h2>Implement Machine Learning Models and Evaluations</h2>
+</section>
+<div class="cell code" data-execution_count="36">
+<div class="sourceCode" id="cb58"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb58-1"><a href="#cb58-1" aria-hidden="true" tabindex="-1"></a><span class="co"># start with basic model (Logistic Regression)</span></span>
+<span id="cb58-2"><a href="#cb58-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb58-3"><a href="#cb58-3" aria-hidden="true" tabindex="-1"></a>reg<span class="op">=</span>LogisticRegression(max_iter<span class="op">=</span><span class="dv">1000</span>)</span>
+<span id="cb58-4"><a href="#cb58-4" aria-hidden="true" tabindex="-1"></a>reg.fit(X_train,y_train)</span>
+<span id="cb58-5"><a href="#cb58-5" aria-hidden="true" tabindex="-1"></a>y_pred<span class="op">=</span>reg.predict(X_test)</span>
+<span id="cb58-6"><a href="#cb58-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb58-7"><a href="#cb58-7" aria-hidden="true" tabindex="-1"></a>report<span class="op">=</span>classification_report(y_test,y_pred)</span>
+<span id="cb58-8"><a href="#cb58-8" aria-hidden="true" tabindex="-1"></a>matrix<span class="op">=</span>confusion_matrix(y_test,y_pred)</span>
+<span id="cb58-9"><a href="#cb58-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb58-10"><a href="#cb58-10" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;Classification Report:</span><span class="ch">\n</span><span class="st">&#39;</span>,report)</span>
+<span id="cb58-11"><a href="#cb58-11" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;Confusion Matrix :</span><span class="ch">\n</span><span class="st">&#39;</span>,matrix)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.83      0.80      0.81      6798
+           1       0.80      0.84      0.82      6808
+
+    accuracy                           0.82     13606
+   macro avg       0.82      0.82      0.82     13606
+weighted avg       0.82      0.82      0.82     13606
+
+Confusion Matrix :
+ [[5418 1380]
+ [1118 5690]]
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="37">
+<div class="sourceCode" id="cb60"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb60-1"><a href="#cb60-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Now lets go for my favourite one </span></span>
+<span id="cb60-2"><a href="#cb60-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb60-3"><a href="#cb60-3" aria-hidden="true" tabindex="-1"></a>random<span class="op">=</span>RandomForestClassifier()</span>
+<span id="cb60-4"><a href="#cb60-4" aria-hidden="true" tabindex="-1"></a>random.fit(X_train,y_train)</span>
+<span id="cb60-5"><a href="#cb60-5" aria-hidden="true" tabindex="-1"></a>y_pred<span class="op">=</span>random.predict(X_test)</span>
+<span id="cb60-6"><a href="#cb60-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb60-7"><a href="#cb60-7" aria-hidden="true" tabindex="-1"></a>report<span class="op">=</span>classification_report(y_test,y_pred)</span>
+<span id="cb60-8"><a href="#cb60-8" aria-hidden="true" tabindex="-1"></a>matrix<span class="op">=</span>confusion_matrix(y_test,y_pred)</span>
+<span id="cb60-9"><a href="#cb60-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb60-10"><a href="#cb60-10" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;Classification Report:</span><span class="ch">\n</span><span class="st">&#39;</span>,report)</span>
+<span id="cb60-11"><a href="#cb60-11" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;Confusion Matrix :</span><span class="ch">\n</span><span class="st">&#39;</span>,matrix)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.95      0.86      0.90      6798
+           1       0.87      0.95      0.91      6808
+
+    accuracy                           0.91     13606
+   macro avg       0.91      0.91      0.91     13606
+weighted avg       0.91      0.91      0.91     13606
+
+Confusion Matrix :
+ [[5843  955]
+ [ 332 6476]]
+</code></pre>
+</div>
+</div>
+<section id="hyper-tuning-technique" class="cell markdown">
+<h2>Hyper-Tuning Technique</h2>
+</section>
+<div class="cell code" data-execution_count="38">
+<div class="sourceCode" id="cb62"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb62-1"><a href="#cb62-1" aria-hidden="true" tabindex="-1"></a>params<span class="op">=</span>{<span class="st">&#39;n_estimators&#39;</span>:[i <span class="cf">for</span> i <span class="kw">in</span>  <span class="bu">range</span>(<span class="dv">100</span>,<span class="dv">2000</span>,<span class="dv">200</span>)],</span>
+<span id="cb62-2"><a href="#cb62-2" aria-hidden="true" tabindex="-1"></a>      <span class="st">&#39;max_depth&#39;</span>:[<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">4</span>,<span class="dv">5</span>,<span class="dv">10</span>,<span class="dv">15</span>,<span class="dv">20</span>,<span class="dv">30</span>,<span class="dv">35</span>,<span class="dv">40</span>],</span>
+<span id="cb62-3"><a href="#cb62-3" aria-hidden="true" tabindex="-1"></a>       <span class="st">&#39;min_samples_split&#39;</span>:[<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">4</span>,<span class="dv">5</span>,<span class="dv">10</span>,<span class="dv">15</span>,<span class="dv">20</span>],</span>
+<span id="cb62-4"><a href="#cb62-4" aria-hidden="true" tabindex="-1"></a>       <span class="st">&#39;min_samples_leaf&#39;</span>:[<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">6</span>,<span class="dv">8</span>,<span class="dv">10</span>,<span class="dv">15</span>,<span class="dv">20</span>,<span class="dv">25</span>,<span class="dv">30</span>]}</span>
+<span id="cb62-5"><a href="#cb62-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb62-6"><a href="#cb62-6" aria-hidden="true" tabindex="-1"></a>clf<span class="op">=</span> RandomForestClassifier()</span>
+<span id="cb62-7"><a href="#cb62-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb62-8"><a href="#cb62-8" aria-hidden="true" tabindex="-1"></a>model<span class="op">=</span>RandomizedSearchCV(clf,param_distributions<span class="op">=</span>params,cv<span class="op">=</span><span class="dv">3</span>)</span>
+<span id="cb62-9"><a href="#cb62-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb62-10"><a href="#cb62-10" aria-hidden="true" tabindex="-1"></a>model.fit(X_train,y_train)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="38">
+<pre><code>RandomizedSearchCV(cv=3, estimator=RandomForestClassifier(),
+                   param_distributions={&#39;max_depth&#39;: [1, 2, 4, 5, 10, 15, 20,
+                                                      30, 35, 40],
+                                        &#39;min_samples_leaf&#39;: [1, 2, 6, 8, 10, 15,
+                                                             20, 25, 30],
+                                        &#39;min_samples_split&#39;: [1, 2, 4, 5, 10,
+                                                              15, 20],
+                                        &#39;n_estimators&#39;: [100, 300, 500, 700,
+                                                         900, 1100, 1300, 1500,
+                                                         1700, 1900]})</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="39">
+<div class="sourceCode" id="cb64"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb64-1"><a href="#cb64-1" aria-hidden="true" tabindex="-1"></a>model.best_score_</span></code></pre></div>
+<div class="output execute_result" data-execution_count="39">
+<pre><code>0.8310794424036906</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>hyper-tuning is not improving the accuracy, still we got the good accuracy.</p>
+<p>We got almost 87% F1-Score without Hyper-Tuning.</p>
+</div>
+<div class="cell code" data-execution_count="40">
+<div class="sourceCode" id="cb66"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb66-1"><a href="#cb66-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Checking what are the top 10 features that are more important for the prediction.</span></span>
+<span id="cb66-2"><a href="#cb66-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb66-3"><a href="#cb66-3" aria-hidden="true" tabindex="-1"></a>features<span class="op">=</span>pd.DataFrame({<span class="st">&#39;Important_features&#39;</span>:random.feature_importances_},index<span class="op">=</span>X.columns)</span>
+<span id="cb66-4"><a href="#cb66-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb66-5"><a href="#cb66-5" aria-hidden="true" tabindex="-1"></a>features.sort_values(by<span class="op">=</span><span class="st">&#39;Important_features&#39;</span>,ascending<span class="op">=</span><span class="va">True</span>).head(<span class="dv">10</span>).plot(kind<span class="op">=</span><span class="st">&#39;barh&#39;</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="40">
+<pre><code>&lt;AxesSubplot:&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_0dffe6063dae4ea68313a44520fc99db/269b0bd1b803ae9cdcc21b1e299385ece2cf56cd.png" /></p>
+</div>
+</div>
+<section id="we-can-improve-our-model-accuracy-by" class="cell markdown">
+<h3>We can improve our model accuracy by:</h3>
+<p>1] Handling Outliers</p>
+<p>2] Splitting train test data with cross validation</p>
+<p>3] try to train and compare the accuracy with other models as well like, xgboost.</p>
+</section>
+<div class="cell code">
+<div class="sourceCode" id="cb68"><pre class="sourceCode python"><code class="sourceCode python"></code></pre></div>
+</div>
+</body>
+</html>
